@@ -22,4 +22,5 @@ RCNN bypasses the problem of setting a huge number of regions, and instead __Ros
 
 ![](Images/5.png)
 The CNN acts as a feature extractor and the output dense layer consists of the features extracted from the image and the extracted features are fed into an SVM to classify the presence of the object within that candidate region proposal. In addition to predicting the presence of an object within the region proposals, the algorithm also predicts four values which are offset values to increase the precision of the bounding box. For example, given a region proposal, the algorithm would have predicted the presence of a person but the face of that person within that region proposal could’ve been cut in half.
+
 ![](Images/6.png)
